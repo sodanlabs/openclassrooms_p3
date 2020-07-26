@@ -1,0 +1,21 @@
+@import url("stylesheet.css");
+@import url("menu.css");
+
+.menu {
+    background-color: #fcdfdb;
+}
+
+.titre_fin_menu {
+text-align: center;
+}
+
+.div_entrée_titre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_entrée_titre img {
+    display: none;
+    max-width: 50%;
+    height: auto;
+}

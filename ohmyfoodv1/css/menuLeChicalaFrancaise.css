@@ -1,0 +1,18 @@
+@import url("stylesheet.css");
+@import url("menu.css");
+
+.menu {
+    background-color: #fff5fe;
+}
+
+.entrée {
+    color: #c67412;
+}
+
+.plat {
+    color:#a56799;
+}
+
+.dessert {
+    color:#6e4ccc;
+}

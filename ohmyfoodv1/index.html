@@ -19,37 +19,45 @@
     <meta property="og:description" content="ohmyfood" />
 
     <!-- <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/> -->
-    <link rel="stylesheet" type="text/css" href="./stylesheet.css" /></link>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
   </head>
   <body>
-<header>
-  <h1>ohmyfood</h1>
+<header class="site_header">
+  <a href="index.html"><h1 class="titre">ohmyfood</h1></a>
 </header>
-<main>
+<main class="site_main">
   <div class="container_ListofMenus">
-    <div class="item_MenuasButton" onclick="MenuLaNoteEnchantee.html">
-      <p>♫</p>
-      <p>La note enchantée</p>
-      <p>Menu</p>
+    <div class="tile tile_LaNoteEnchantee">
+      <a href="MenuLaNoteEnchantee.html">
+        <p><span class="semiquaver">♫</span><br>
+      La note enchantée</p><br>
+      <p>Menu</p></a>
     </div>
-    <div class="item_MenuasButton" onclick="MenuLeChicalaFrancaise.html">
-      <p>Le chic à la française</p>
-      <p>Menu</p>
+    <div class="tile tile_LeChicalaFrancaise">
+      <a href="MenuLeChicalaFrancaise.html">
+        <p>Le chic à la française</p><br>
+        <p>Menu</p></a>
     </div>
-    <div class="item_MenuasButton" onclick="MenuLeDelicedesPapilles.html">
-      <p>Le délice des papilles</p>
-      <p>Menu</p>
+    <div class="tile tile_LeDelicedesPapilles">
+      <a href="MenuLeDelicedesPapilles.html">
+      <p>Le délice des papilles</p><br>
+      <p>Menu</p></a>
     </div>
-    <div class="item_MenuasButton" onclick="MenuLaPaletteduGout.html">
-      <p>La palette du goût</p>
-      <p>Menu</p>
+    <div class="tile tile_LaPaletteduGout">
+      <a href="MenuLaPaletteduGout.html">
+      <p>La palette du goût</p><br>
+      <p>Menu</p></a>
     </div>
   </div>
-  <div class="button_IntheNearFuture">Prochainement</div>
+  <div class="button_Prochainement">
+    <p>Prochainement</p>
+    </div>
 </main>
-<footer>
-<div><a href="MentionsLegales.html">Mentions légales</a></div>
-<div><a href="mailto:contact@ohmyfood.com">Contactez-nous</a></div>
+<footer class="site_footer">
+<a href="MentionsLegales.html">Mentions légales</a>
+<a href="mailto:contact@ohmyfood.tld">Contactez-nous</a>
 </footer>
   </body>
 </html>

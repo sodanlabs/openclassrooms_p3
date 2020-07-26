@@ -1,0 +1,33 @@
+.site_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.menu {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu_titre,
+.entrée_titre,
+.plat_titre,
+.dessert_titre {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
