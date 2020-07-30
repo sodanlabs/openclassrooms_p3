@@ -5,8 +5,15 @@
     background-color: #fcdfdb;
 }
 
-.titre_fin_menu {
-text-align: center;
+.prix {
+    margin-left: 25px;
+}
+
+.fin_menu {
+display: grid;
+grid-template-columns: .8fr 1fr;
+gap:5px;
+align-items: center;
 }
 
 .div_entrée_titre {
@@ -14,8 +21,16 @@ text-align: center;
     justify-content: space-between;
 }
 
-.div_entrée_titre img {
-    display: none;
-    max-width: 50%;
+.semiquaver-title {
+    max-width: 10%;
     height: auto;
+}
+
+.fin_semiquaver {
+    float: right;
+    max-width: 15%;
+    height: auto;
+}
+
+fin_title {
 }
