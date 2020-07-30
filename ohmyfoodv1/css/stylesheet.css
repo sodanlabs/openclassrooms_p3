@@ -51,6 +51,7 @@ footer {
   right: 0;
 }
 
+
 .site_main {
   background-color: #fff;
   display: grid;
@@ -103,9 +104,9 @@ footer {
   background-color: #fcdfdb;
 }
 
-.semiquaver {
-  font-size: 600;
-  color: linear-gradiant(#f04a5e, #f78f6a);
+.semiquaver-menu {
+  max-width: 15%;
+  height: auto;
 }
 
 .tile_LeChicalaFrancaise {
