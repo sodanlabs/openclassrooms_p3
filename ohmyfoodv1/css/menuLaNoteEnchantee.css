@@ -5,10 +5,6 @@
     background-color: #fcdfdb;
 }
 
-.prix {
-    margin-left: 25px;
-}
-
 .fin_menu {
 display: grid;
 grid-template-columns: .8fr 1fr;

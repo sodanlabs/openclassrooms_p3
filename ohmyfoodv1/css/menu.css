@@ -21,6 +21,21 @@
     text-align: center;
 }
 
+.grid_decoration {
+    display: grid;
+    grid-template-columns: 1fr 30% 1fr;
+    align-items: center;
+}
+
+.grid_decoration img {
+    max-width: 100%;
+    height: auto;
+}
+
+.prix {
+    margin-left: 25px;
+}
+
 ul {
     list-style: none;
     padding: 0;
