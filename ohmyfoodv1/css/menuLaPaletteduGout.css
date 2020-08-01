@@ -1,6 +1,14 @@
 @import url("stylesheet.css");
 @import url("menu.css");
 
+body {
+    font-family: 'Caveat', cursive;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
 .menu {
     background-color: #fdfffd;
 }

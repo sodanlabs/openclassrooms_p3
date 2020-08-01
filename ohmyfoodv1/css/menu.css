@@ -21,6 +21,19 @@
     text-align: center;
 }
 
+.underline {
+}
+
+.underline::after {
+
+}
+
+.underline::after:hover {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+
 .grid_decoration {
     display: grid;
     grid-template-columns: 1fr 30% 1fr;
@@ -45,4 +58,5 @@ ul {
 li {
     display: flex;
     justify-content: space-between;
+    line-height: 1.6;
 }
