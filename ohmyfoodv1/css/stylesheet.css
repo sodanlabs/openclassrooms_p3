@@ -86,7 +86,6 @@ footer {
 .tile a {
   text-align: center;
   line-height: 1rem;
-  color: #3c1218;
   width: 100%;
 }
 
@@ -104,6 +103,7 @@ footer {
 
 .tile_LaNoteEnchantee {
   background-color: #fcdfdb;
+  color: #3c1218;
 }
 
 .semiquaver-menu {
@@ -134,3 +134,25 @@ footer {
   padding: 7px 30px;
   border-radius: 0.5rem;
 }
+
+.background_clip {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent !important;
+}
+
+.color_LeChicalaFrancaise {
+  background: linear-gradient(to right bottom, #c67412, #a56799, #6e4ccc);
+
+}
+
+.color_LeDelicedesPapilles {
+  background: linear-gradient(to right, #0228dd,#0670f3, #229df9);
+}
+
+.color_LaPaletteduGout {
+  background: linear-gradient(to right, #4da043, #beff7f);
+}
+
+
+

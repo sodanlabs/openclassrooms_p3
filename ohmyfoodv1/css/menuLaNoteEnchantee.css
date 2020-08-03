@@ -11,6 +11,10 @@ display: grid;
 grid-template-columns: .8fr 1fr;
 gap:5px;
 align-items: center;
+
+/* display: flex;
+justify-content: center;
+align-items: center; */
 }
 
 .div_entrée_titre {
@@ -19,6 +23,7 @@ align-items: center;
 }
 
 .semiquaver-title {
+    justify-self: flex-start;
     max-width: 10%;
     height: auto;
 }
@@ -27,6 +32,9 @@ align-items: center;
     float: right;
     max-width: 15%;
     height: auto;
+
+    /* display: inline-block;
+    max-width: 5%;*/
 }
 
 fin_title {
