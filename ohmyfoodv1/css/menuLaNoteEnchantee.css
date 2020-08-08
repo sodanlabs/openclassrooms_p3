@@ -6,6 +6,10 @@
     font-family: 'Caveat', cursive;
 }
 
+.site_menu {
+    color:#3d1319;
+}
+
 .fin_menu {
 display: grid;
 grid-template-columns: .8fr 1fr;
@@ -37,5 +41,3 @@ align-items: center; */
     max-width: 5%;*/
 }
 
-fin_title {
-}

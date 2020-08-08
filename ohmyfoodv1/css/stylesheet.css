@@ -70,6 +70,9 @@ footer {
   /* place-items: center stretch; */
 }
 
+
+/*************** Tile ****************/
+
 .tile {
   display: flex;
   flex-direction: column;
@@ -78,31 +81,38 @@ footer {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
-.tile p {
+.tile_menu p {
   margin: 0;
-  line-height: 0.8rem;
+  line-height: 2rem;
 }
 
-.tile a {
+.tile_menu a {
   text-align: center;
   line-height: 1rem;
   width: 100%;
 }
 
-.tile a:link,
-.tile a:visited {
+.tile_menu a:link,
+.tile_menu a:visited {
   text-decoration: none;
 }
 
-.tile a:hover {
+.scale:hover {
   transform: scale(1.2);
   transition: transform 850ms;
   transition-delay: 0, 250ms;
   cursor: pointer;
 }
 
-.tile_LaNoteEnchantee {
+.transparent {
+  color: transparent;
+}
+
+.backgroundcolor_LaNoteEnchantee {
   background-color: #fcdfdb;
+}
+
+.tile_LaNoteEnchantee a {
   color: #3c1218;
 }
 
@@ -111,16 +121,48 @@ footer {
   height: auto;
 }
 
-.tile_LeChicalaFrancaise {
+.LaNoteEnchantee_title_menu {
+  text-transform: uppercase;
+}
+
+.backgroundcolor_LeChicalaFrancaise {
   background-color: #fff5fe;
 }
 
-.tile_LeDelicedesPapilles {
+.tile_LeChicalaFrancaise {
+  background: linear-gradient(to right, #c67412, #a56799, #6e4ccc);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.LeChicalaFrancaise_title_menu {
+  color: #c77412;
+}
+
+.backgroundcolor_LeDelicedesPapilles {
   background-color: #f9f9f9;
 }
 
-.tile_LaPaletteduGout {
+.tile_LeDelicedesPapilles {
+  background: linear-gradient(to right, #0228dd,#0670f3, #229df9);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.LeDelicedesPapilles_title_menu { 
+}
+
+.backgroundcolor_LaPaletteduGout {
   background-color: #fdfffd;
+}
+
+.tile_LaPaletteduGout {
+  background: linear-gradient(to right, #4da043, #beff7f);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.LaPaletteduGout_title_menu {
 }
 
 .button_Prochainement {
@@ -135,24 +177,7 @@ footer {
   border-radius: 0.5rem;
 }
 
-.background_clip {
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent !important;
-}
 
-.color_LeChicalaFrancaise {
-  background: linear-gradient(to right bottom, #c67412, #a56799, #6e4ccc);
-
-}
-
-.color_LeDelicedesPapilles {
-  background: linear-gradient(to right, #0228dd,#0670f3, #229df9);
-}
-
-.color_LaPaletteduGout {
-  background: linear-gradient(to right, #4da043, #beff7f);
-}
 
 
 
