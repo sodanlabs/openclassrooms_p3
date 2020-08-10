@@ -1,5 +1,3 @@
-@import url("animations.css");
-
 @media screen and (max-width: 599px) {
 }
 
@@ -178,6 +176,17 @@ footer {
   font-size: 1.1rem;
   padding: 7px 30px;
   border-radius: 0.5rem;
+}
+
+.wiggle:hover{ 
+  animation: wiggle 100ms infinite;
+  animation-timing-function: linear;   
+}
+
+  @keyframes wiggle {
+  0% { transform: translate(2px, 0); }
+  50% { transform: translate(-2px, 0); }
+  100% { transform: translate(2px, 0); }
 }
 
 

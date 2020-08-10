@@ -12,3 +12,13 @@ h2 {
 .menu {
     background-color: #fdfffd;
 }
+
+.underline:after {
+    background: linear-gradient(to right, #4da043, #beff7f);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; /* !importanté */
+    border: solid 1.7px transparent; /* !importanté */
+ 
+}
