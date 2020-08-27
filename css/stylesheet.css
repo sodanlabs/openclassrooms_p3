@@ -190,8 +190,33 @@ footer {
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+/* @media screen and (min-width: 600px) and (max-width: 900px) */
+
+@media screen and (min-width: 600px) {
+  .site_main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container_ListofMenus {
+    width: 600px;
+  }
 }
 
-@media screen and (min-width: 901px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  /* .site_main {
+    max-width: 600px;
+  } */
+  
+  /* .container_ListofMenus {
+    margin: 20px 130px;
+    grid-gap: 25px;
+  } */
+}
+
+@media screen and (min-width: 769px) {
+  /* .container_ListofMenus {
+    margin: 20px 225px;
+    grid-gap: 35px;
+  } */
 }
