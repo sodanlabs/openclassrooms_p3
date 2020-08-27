@@ -1,0 +1,29 @@
+@import url("stylesheet.css");
+@import url("menu.css");
+
+.menu {
+    background-color: #fff5fe;
+}
+
+.menu_titre {
+    font-size: 45px;
+    font-weight: bold;
+} 
+
+.tile_LeChicalaFrancaise {
+    background: linear-gradient(170deg, #e38913 35%, #a56799 50%, #8f5bfe 65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+.entrée {
+    color: #c67412;
+}
+
+.plat {
+    color:#a56799;
+}
+
+.dessert {
+    color:#6e4ccc;
+}
