@@ -2,8 +2,66 @@
 @import url("menu.css");
 
 .menu {
-    background-color: #edefef;
-    font-family: 'Kalam', cursive;
-    font-style: italic;
+  background-color: #edefef;
+  font-family: "Kalam", cursive;
+  padding: 25px;
 }
 
+.grid_decoration {
+  grid-template-columns: 1fr 50% 1fr;
+}
+
+.entree_titre,
+.plat_titre,
+.dessert_titre {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.entree_titre:after {
+  border-bottom: #0228dd solid 1.7px;
+}
+
+.plat_titre:after {
+  border-bottom: #0670f3 solid 1.7px;
+}
+
+.dessert_titre:after {
+  border-bottom: #229df9 solid 1.7px;
+}
+
+ul {
+  padding: 0 30px;
+  font-size: 12px;
+}
+
+li {
+  margin-top: 8px;
+}
+
+.prix {
+  font-size: 15px;
+  font-style: normal;
+}
+
+@media screen and (min-width: 600px) {
+  .menu_titre {
+    font-size: 40px;
+  }
+
+  .entree_titre,
+  .plat_titre,
+  .dessert_titre {
+    font-size: 16px;
+  }
+
+  ul {
+    padding: 0 50px;
+    font-size: 14px;
+  }
+
+  .prix {
+    font-size: 18px;
+  }
+}

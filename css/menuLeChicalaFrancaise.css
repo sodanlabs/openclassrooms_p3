@@ -2,23 +2,59 @@
 @import url("menu.css");
 
 .menu {
-    background-color: #fff5fe;
-    font-family: "Noto Serif", serif;
+  background-color: #fff5fe;
+  font-family: "Noto Serif", serif;
+  padding: 0 25px;
 }
 
 .menu_titre {
-    font-size: 45px;
-    font-weight: bold;
+  font-size: 35px;
 }
 
-.entrée {
-    color: #c67412;
+.grid_decoration {
+  grid-template-columns: 1fr 50% 1fr;
+}
+
+.entree_titre,
+.plat_titre,
+.dessert_titre {
+  font-weight: 600;
+  font-family: "Lora", serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.entree {
+  color: #c67412;
 }
 
 .plat {
-    color:#a56799;
+  color: #a56799;
 }
 
 .dessert {
-    color:#6e4ccc;
+  color: #6e4ccc;
+}
+
+ul {
+  padding: 0 25px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 600px) {
+  .menu_titre {
+    font-size: 40px;
+  }
+
+  .entree_titre,
+  .plat_titre,
+  .dessert_titre {
+    font-size: 16px;
+  }
+
+  ul {
+    padding: 0 50px;
+    font-size: 14px;
+  }
 }

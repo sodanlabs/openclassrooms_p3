@@ -1,23 +1,64 @@
 @import url("stylesheet.css");
 @import url("menu.css");
 
+:root {
+  --grad-color: linear-gradient(to right, #4da043, #beff7f);
+}
+
 .menu {
-    background-color: #fdfffd;
-    font-family: 'Kalam', cursive;
-    font-style: italic;
+  background-color: #fdfffd;
+  font-family: "Kalam", cursive;
+  font-style: italic;
+  padding: 25px;
 }
 
 .menu_titre {
-    font-size: 70px;
-    font-weight: bold;
+  font-size: 40px;
+}
+
+.entree_titre,
+.plat_titre,
+.dessert_titre {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
 }
 
 .underline:after {
-    background: linear-gradient(to right, #4da043, #beff7f);
+  color: #99e06b;
+}
 
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    border: solid 1.7px transparent;
- 
+ul {
+  padding: 0 30px;
+  font-size: 12px;
+}
+
+li {
+  margin-top: 8px;
+}
+
+.prix {
+  font-size: 15px;
+  font-style: normal;
+}
+
+@media screen and (min-width: 600px) {
+  .menu_titre {
+    font-size: 60px;
+  }
+
+  .entree_titre,
+  .plat_titre,
+  .dessert_titre {
+    font-size: 16px;
+  }
+
+  ul {
+    padding: 0 50px;
+    font-size: 14px;
+  }
+
+  .prix {
+    font-size: 18px;
+  }
 }
