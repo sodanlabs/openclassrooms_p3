@@ -54,7 +54,6 @@ footer {
 .site_main {
   background-color: #fff;
   display: grid;
-  /* min-height: 100vh; */
   grid-template-rows: 85% 15%;
 }
 
@@ -65,9 +64,6 @@ footer {
   grid-gap: 10px;
   margin: 15px 20px 0 20px;
 }
-
-
-/*************** Tile ****************/
 
 .tile {
   display: flex;
@@ -80,7 +76,7 @@ footer {
 
 .tile_menu img {
   display: block;
-  margin:auto;
+  margin: auto;
 }
 
 .tile_menu {
@@ -89,7 +85,7 @@ footer {
 }
 
 .tile_menu p {
-    margin: 0 0 5px 0;
+  margin: 0 0 5px 0;
 }
 
 .tile_menu a:link,
@@ -98,7 +94,7 @@ footer {
 }
 
 .scale:hover {
-  opacity: .9;
+  opacity: 0.9;
   transform: scale(1.2);
   transition: transform 850ms;
   transition-delay: 0ms, 250ms;
@@ -160,7 +156,7 @@ footer {
 }
 
 .tile_LeDelicedesPapilles {
-  background: linear-gradient(to right, #0228dd,#0670f3, #229df9);
+  background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
   background-clip: text;
   -webkit-background-clip: text;
   font-family: "Dancing Script";
@@ -191,7 +187,7 @@ footer {
   align-items: center;
 
   margin: 30px 75px;
-  border-radius: .6rem;
+  border-radius: 0.6rem;
 }
 
 .button_Prochainement p {
@@ -205,7 +201,7 @@ footer {
   height: 8px;
   border-radius: 1rem;
   margin-top: 5px;
-  margin-left:5px;
+  margin-left: 5px;
   animation: anime 1s infinite 0.2s;
 }
 
@@ -218,22 +214,39 @@ footer {
 }
 
 @keyframes anime {
-  0% { background: #569c87; opacity: 1; transform: scale(.9);}
-  50% { background: #fcca46; opacity: .6; transform: scale(1);}
-  100% { background: #569c87; opacity: .4; transform: scale(1.1);}
+  0% {
+    background: #569c87;
+    opacity: 1;
+    transform: scale(0.9);
+  }
+  50% {
+    background: #fcca46;
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100% {
+    background: #569c87;
+    opacity: 0.4;
+    transform: scale(1.1);
+  }
 }
 
-.wiggle:hover{ 
+.wiggle:hover {
   animation: wiggle 100ms infinite;
-  animation-timing-function: ease-in-out;   
+  animation-timing-function: ease-in-out;
 }
 
-  @keyframes wiggle {
-  0% { transform: translate(2px, 0); }
-  50% { transform: translate(-2px, 0); }
-  100% { transform: translate(2px, 0); }
+@keyframes wiggle {
+  0% {
+    transform: translate(2px, 0);
+  }
+  50% {
+    transform: translate(-2px, 0);
+  }
+  100% {
+    transform: translate(2px, 0);
+  }
 }
-
 
 @media screen and (min-width: 560px) {
   body {
@@ -242,7 +255,7 @@ footer {
 
   header,
   footer {
-    font-size:1.4rem;
+    font-size: 1.4rem;
   }
 
   footer {
@@ -262,9 +275,9 @@ footer {
     line-height: 3rem;
     font-size: 1.4rem;
   }
-  
+
   .tile_menu p {
-      margin: 0 0 10px 0;
+    margin: 0 0 10px 0;
   }
 
   .semiquaver-menu {
@@ -272,7 +285,7 @@ footer {
   }
 
   .button_Prochainement {
-    border-radius: .8rem;
+    border-radius: 0.8rem;
     margin: 30px 100px;
   }
 
