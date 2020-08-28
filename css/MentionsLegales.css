@@ -28,14 +28,14 @@ margin-top: 5px;
     font-style: italic;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 560px) {
     .site_main {
       margin-left: auto;
       margin-right: auto;
     }
   
     .mentions_legales {
-      width: 600px;
+      width: 560px;
     }
   }
 

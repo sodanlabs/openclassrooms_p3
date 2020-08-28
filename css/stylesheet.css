@@ -102,7 +102,7 @@ footer {
   opacity: .9;
   transform: scale(1.2);
   transition: transform 850ms;
-  transition-delay: 0, 250ms;
+  transition-delay: 0ms, 250ms;
   cursor: pointer;
 }
 
@@ -210,7 +210,7 @@ footer {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 560px) {
   body {
     grid-template-rows: 110px 1fr 90px;
   }
@@ -229,7 +229,7 @@ footer {
   }
 
   .container_ListofMenus {
-    width: 600px;
+    width: 560px;
     grid-gap: 25px;
   }
 

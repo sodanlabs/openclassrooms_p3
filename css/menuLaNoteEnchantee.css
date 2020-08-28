@@ -59,7 +59,7 @@
   margin-right: 7px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 560px) {
   .menu {
     padding: 40px 70px;
   }
