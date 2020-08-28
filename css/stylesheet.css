@@ -10,7 +10,7 @@ body {
   display: grid;
   margin: 0;
   min-height: 100vh;
-  grid-template-rows: 90px 1fr 40px;
+  grid-template-rows: 90px 1fr 60px;
 }
 
 header,
@@ -237,7 +237,7 @@ footer {
 
 @media screen and (min-width: 560px) {
   body {
-    grid-template-rows: 110px 1fr 60px;
+    grid-template-rows: 110px 1fr 80px;
   }
 
   header,
@@ -273,7 +273,7 @@ footer {
 
   .button_Prochainement {
     border-radius: .8rem;
-    margin: 40px 115px;
+    margin: 30px 100px;
   }
 
   .button_Prochainement p {
