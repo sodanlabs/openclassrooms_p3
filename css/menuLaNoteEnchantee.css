@@ -3,38 +3,78 @@
 
 .menu {
     background-color: #fcdfdb;
-    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
     color:#3d1319;
+    padding: 35px 25px;
 }
 
-.fin_menu {
-display: grid;
-grid-template-columns: .8fr 1fr;
-gap:5px;
-align-items: center;
-
-/* display: flex;
-justify-content: center;
-align-items: center; */
-}
-
-.div_entrée_titre {
+.menu_titre {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_titre p {
+    margin-top: 0;
 }
 
 .semiquaver-title {
-    justify-self: flex-start;
-    max-width: 10%;
-    height: auto;
+    max-width: 14%;
+}
+
+.entree,
+.plat,
+.dessert {
+    font-style: italic;
+}
+
+.plat,
+.dessert {
+    margin-top: 20px;
+}
+
+.entree_titre,
+.plat_titre,
+.dessert_titre,
+.prix {
+    font-weight: bold;
+}
+
+.dessert_titre {
+    padding: 0 7px;
+}
+
+
+.fin_menu {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Devonshire", cursive;
+font-size: 1.7rem;
+margin-top:20px;
+}
+
+.fin_title {
+    margin: 0;
 }
 
 .fin_semiquaver {
-    float: right;
-    max-width: 15%;
+    max-width: 6%;
     height: auto;
-
-    /* display: inline-block;
-    max-width: 5%;*/
+    margin-right: 7px;
 }
 
+@media screen and (min-width: 600px) {
+    .menu {
+        padding: 40px 70px;
+    }
+
+    .semiquaver-title {
+        max-width: 10%;
+        margin-top: 0;
+    }
+
+    .fin_menu {
+        font-size: 2rem;
+    }
+}

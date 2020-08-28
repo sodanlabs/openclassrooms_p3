@@ -10,7 +10,7 @@ body {
   display: grid;
   margin: 0;
   min-height: 100vh;
-  grid-template-rows: 75px 1fr 40px;
+  grid-template-rows: 90px 1fr 70px;
 }
 
 header,
@@ -65,7 +65,6 @@ footer {
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
   margin: 15px 20px 0 20px;
-  /* place-items: center stretch; */
 }
 
 
@@ -77,17 +76,21 @@ footer {
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tile_menu img {
+  display: block;
+  margin:auto;
+}
+
+.tile_menu {
+  line-height: 2.5rem;
+  font-size: 1.05rem;
 }
 
 .tile_menu p {
-  margin: 0;
-  line-height: 2rem;
-}
-
-.tile_menu a {
-  text-align: center;
-  line-height: 1rem;
-  width: 100%;
+    margin: 0 0 5px 0;
 }
 
 .tile_menu a:link,
@@ -111,6 +114,10 @@ footer {
   background-color: #fcdfdb;
 }
 
+.tile_LaNoteEnchantee {
+  font-family: "Devonshire";
+}
+
 .tile_LaNoteEnchantee a {
   color: #3c1218;
 }
@@ -122,6 +129,13 @@ footer {
 
 .LaNoteEnchantee_title_menu {
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.LaNoteEnchantee_title_menu,
+.LeDelicedesPapilles_title_menu,
+.LaPaletteduGout_title_menu {
+  font-family: "Kalam";
 }
 
 .backgroundcolor_LeChicalaFrancaise {
@@ -132,10 +146,14 @@ footer {
   background: linear-gradient(170deg, #e38913 35%, #a56799 50%, #8f5bfe 65%);
   background-clip: text;
   -webkit-background-clip: text;
+  font-family: "Kurale";
+  font-weight: bold;
 }
 
 .LeChicalaFrancaise_title_menu {
   color: #c77412;
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
 }
 
 .backgroundcolor_LeDelicedesPapilles {
@@ -146,10 +164,11 @@ footer {
   background: linear-gradient(to right, #0228dd,#0670f3, #229df9);
   background-clip: text;
   -webkit-background-clip: text;
+  font-family: "Dancing Script";
 }
 
 .LeDelicedesPapilles_title_menu {
-  color: #0887fb; 
+  color: #0887fb;
 }
 
 .backgroundcolor_LaPaletteduGout {
@@ -160,6 +179,7 @@ footer {
   background: linear-gradient(to right, #4da043, #beff7f);
   background-clip: text;
   -webkit-background-clip: text;
+  font-family: "Kaushan Script";
 }
 
 .LaPaletteduGout_title_menu {
@@ -190,9 +210,19 @@ footer {
 }
 
 
-/* @media screen and (min-width: 600px) and (max-width: 900px) */
-
 @media screen and (min-width: 600px) {
+  body {
+    grid-template-rows: 110px 1fr 70px;
+  }
+
+  header,
+  footer {
+    font-size:1.4rem;
+  }
+
+  footer {
+    padding: 18px 10px;
+  }
   .site_main {
     margin-left: auto;
     margin-right: auto;
@@ -200,23 +230,26 @@ footer {
 
   .container_ListofMenus {
     width: 600px;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 768px) {
-  /* .site_main {
-    max-width: 600px;
-  } */
-  
-  /* .container_ListofMenus {
-    margin: 20px 130px;
     grid-gap: 25px;
-  } */
-}
+  }
 
-@media screen and (min-width: 769px) {
-  /* .container_ListofMenus {
-    margin: 20px 225px;
-    grid-gap: 35px;
-  } */
+  .tile_menu {
+    line-height: 3rem;
+    font-size: 1.6rem;
+  }
+  
+  .tile_menu p {
+      margin: 0 0 10px 0;
+  }
+
+  .semiquaver-menu {
+    max-width: 28%;
+  }
+
+  .button_Prochainement p {
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 12px 45px;
+    border-radius: 0.7rem;
+  }
 }

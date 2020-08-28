@@ -3,18 +3,13 @@
 
 .menu {
     background-color: #fff5fe;
+    font-family: "Noto Serif", serif;
 }
 
 .menu_titre {
     font-size: 45px;
     font-weight: bold;
-} 
-
-.tile_LeChicalaFrancaise {
-    background: linear-gradient(170deg, #e38913 35%, #a56799 50%, #8f5bfe 65%);
-    background-clip: text;
-    -webkit-background-clip: text;
-  }
+}
 
 .entrée {
     color: #c67412;

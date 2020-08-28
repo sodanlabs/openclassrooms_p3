@@ -1,16 +1,15 @@
 @import url("stylesheet.css");
 @import url("menu.css");
 
-body {
-    font-family: 'Caveat', cursive;
-}
-
-h2 {
-    font-family: "Montserrat", sans-serif;
-}
-
 .menu {
     background-color: #fdfffd;
+    font-family: 'Kalam', cursive;
+    font-style: italic;
+}
+
+.menu_titre {
+    font-size: 70px;
+    font-weight: bold;
 }
 
 .underline:after {
@@ -18,7 +17,7 @@ h2 {
 
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent; /* !importanté */
-    border: solid 1.7px transparent; /* !importanté */
+    color: transparent;
+    border: solid 1.7px transparent;
  
 }
