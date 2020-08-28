@@ -212,7 +212,7 @@ footer {
 
 @media screen and (min-width: 600px) {
   body {
-    grid-template-rows: 110px 1fr 70px;
+    grid-template-rows: 110px 1fr 90px;
   }
 
   header,
