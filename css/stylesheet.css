@@ -1,7 +1,3 @@
-:root {
-  --main-texte-color: #fcca46;
-}
-
 body {
   box-sizing: border-box;
   display: grid;
@@ -14,7 +10,7 @@ header,
 footer,
 .button_Prochainement {
   background-color: #569c87;
-  color: var(--main-texte-color);
+  color: #fcca46;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -23,7 +19,7 @@ header a:visited,
 footer a:link,
 footer a:visited {
   text-decoration: none;
-  color: var(--main-texte-color);
+  color: #fcca46;
 }
 
 header {
@@ -136,7 +132,6 @@ footer {
 
 .tile_LeChicalaFrancaise {
   background: linear-gradient(170deg, #e38913 35%, #a56799 50%, #8f5bfe 65%);
-  background-clip: text;
   -webkit-background-clip: text;
   font-family: "Kurale", serif;
   font-weight: bold;
@@ -154,7 +149,6 @@ footer {
 
 .tile_LeDelicedesPapilles {
   background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
-  background-clip: text;
   -webkit-background-clip: text;
   font-family: "Dancing Script";
 }
@@ -169,7 +163,6 @@ footer {
 
 .tile_LaPaletteduGout {
   background: linear-gradient(to right, #4da043, #beff7f);
-  background-clip: text;
   -webkit-background-clip: text;
   font-family: "Kaushan Script";
 }
